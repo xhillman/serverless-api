@@ -14,7 +14,7 @@ Within each function folder, run `npm i dynamoose` in the terminal.
 
 ### Data and Program Flow
 
-Root URL [Here](https://wga32p532m.execute-api.us-east-1.amazonaws.com/)
+Root URL [Here](https://wga32p532m.execute-api.us-east-1.amazonaws.com/Production)
 
 - GET `/people` requires no inputs and returns an array of objects representing items in a dynamoDB database.
 - GET `/people/:id` requires the id of the item you want to get and returns a single item from the database that matches the id passed into the URL and returns the referenced item.
